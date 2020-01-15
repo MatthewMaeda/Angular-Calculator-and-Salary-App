@@ -1,0 +1,64 @@
+
+h1 {
+    margin-top: 0px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.salary {
+    background-color: rgb(190, 180, 180);
+    position: relative;
+    margin: 7% auto auto auto;
+    width: 400px;
+    text-align: center;
+    border-color: gray;
+    border-radius: 20px;
+    box-shadow: inset 2px 0px 10px -5px gray,
+                inset -5px 0px 15px -5px gray,
+                inset 10px 0px 10px -12px gray,
+                inset -2px 0px 4px 2px gray,
+                inset -2px 0px 10px 0px gray;
+}
+
+.result {
+    border-radius: 8px;
+}
+
+button {
+    border-radius: 8px;
+    width: 80px;
+    height: 65px;
+    font-size: 20px;
+    border: 2px solid;
+    background-color: gray;
+    margin: 2px 2px 8px 2px;
+    transition-duration: 0.4s;
+    box-shadow: inset 5px 0px 15px -5px gray,
+                inset -3px 0px 15px -5px gray,
+                inset 0px -5px 0px -3px gray,
+                inset 0px 0px 2px 2px gray,
+                inset 0px 5px 15px 0px gray;
+
+}
+
+.longBtns {
+    width: 170px;
+}
+
+.responsive:hover {
+    background-color: gray;
+    color: white;
+    box-shadow: inset 5px 0px 15px -5px gray,
+                inset -3px 0px 15px -5px gray,
+                inset 0px -5px 0px -3px gray,
+                inset 0px 0px 2px 2px gray,
+                inset 0px 5px 15px 0px gray;
+
+}
+
+input {
+    width: 350px;
+    height: 60px;
+    text-align: right;
+    font-size: 1.7em;
+}
